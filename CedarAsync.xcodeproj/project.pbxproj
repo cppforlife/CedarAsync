@@ -94,6 +94,7 @@
 		96D6ECE81633347C00F26774 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
 		96D6ECEA16333A1E00F26774 /* TimeoutSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TimeoutSpec.mm; sourceTree = "<group>"; };
 		96D6ECEE1633415E00F26774 /* Timing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Timing.mm; sourceTree = "<group>"; };
+		96FF918F163642EB0003A779 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 		961EB7FA1633C1EB0062EDA0 = {
 			isa = PBXGroup;
 			children = (
+				96FF918F163642EB0003A779 /* README.md */,
 				961EB8361633C1EB0062EDA0 /* Source */,
 				96D6ECA31633236A00F26774 /* CedarAsyncSpecs */,
 				96BB77881633225B00D441EB /* External */,
