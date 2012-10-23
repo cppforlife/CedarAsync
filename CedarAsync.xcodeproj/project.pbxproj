@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		961EB8221633C1EB0062EDA0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961EB8211633C1EB0062EDA0 /* Cocoa.framework */; };
 		96855A12163410EF0031533F /* PollingSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96855A11163410EF0031533F /* PollingSpec.mm */; };
-		96855A161634CBF20031533F /* AsyncActualValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 96855A131634CBF20031533F /* AsyncActualValue.h */; };
-		96855A171634CBF20031533F /* InTimeShouldSyntax.h in Headers */ = {isa = PBXBuildFile; fileRef = 96855A141634CBF20031533F /* InTimeShouldSyntax.h */; };
-		96855A181634CBF20031533F /* Timing.h in Headers */ = {isa = PBXBuildFile; fileRef = 96855A151634CBF20031533F /* Timing.h */; };
+		96855A161634CBF20031533F /* AsyncActualValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 96855A131634CBF20031533F /* AsyncActualValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96855A171634CBF20031533F /* InTimeShouldSyntax.h in Headers */ = {isa = PBXBuildFile; fileRef = 96855A141634CBF20031533F /* InTimeShouldSyntax.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96855A181634CBF20031533F /* Timing.h in Headers */ = {isa = PBXBuildFile; fileRef = 96855A151634CBF20031533F /* Timing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BB778A1633225B00D441EB /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BB77891633225B00D441EB /* Cedar-iOS.framework */; };
 		96D6EC9E1633236A00F26774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D6EC9D1633236A00F26774 /* UIKit.framework */; };
 		96D6ECA01633236A00F26774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D6EC9F1633236A00F26774 /* Foundation.framework */; };
@@ -24,7 +24,7 @@
 		96D6ECC01633251500F26774 /* ExpectFailureWithMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D6ECBC1633251500F26774 /* ExpectFailureWithMessage.m */; };
 		96D6ECD016332AEB00F26774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D6EC9F1633236A00F26774 /* Foundation.framework */; };
 		96D6ECDD16332B1400F26774 /* libCedarAsync-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D6ECCF16332AEA00F26774 /* libCedarAsync-StaticLib.a */; };
-		96D6ECDF16332E0A00F26774 /* CedarAsync.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D6ECDE16332E0A00F26774 /* CedarAsync.h */; };
+		96D6ECDF16332E0A00F26774 /* CedarAsync.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D6ECDE16332E0A00F26774 /* CedarAsync.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96D6ECE61633321900F26774 /* NSURLRequestSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96D6ECE51633321900F26774 /* NSURLRequestSpec.mm */; };
 		96D6ECE91633347C00F26774 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D6ECE81633347C00F26774 /* HTTPClient.m */; };
 		96D6ECEB16333A1E00F26774 /* TimeoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96D6ECEA16333A1E00F26774 /* TimeoutSpec.mm */; };
