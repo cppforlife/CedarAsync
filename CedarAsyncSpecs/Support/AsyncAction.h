@@ -1,0 +1,10 @@
+#import <Foundation/Foundation.h>
+
+@interface AsyncAction : NSObject
+@property (nonatomic, assign) NSTimeInterval delay;
+@property (nonatomic, retain) NSString *value, *from, *to;
+@property (nonatomic, assign) int valueCallCount;
+
+- (void)start;
+- (int)valueCallCountAfterChange;
+@end
