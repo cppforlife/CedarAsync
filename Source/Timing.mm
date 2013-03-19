@@ -23,11 +23,15 @@ namespace CedarAsync {
             timeout:(NSTimeInterval)timeout {
 
     NSAssert(poll > 0, @"Poll must be > 0");
-
+    
     while (block(timeout <= 0)) {
         NSTimeInterval step = MIN(timeout, poll);
         timeout -= step;
 
+        // We need to add at any timer to current runloop in order to
+        // achieve correctly working runUntilDate method
+        [[NSRunLoop currentRunLoop] addTimer:[NSTimer timerWithTimeInterval:step invocation:nil repeats:NO] forMode:NSDefaultRunLoopMode];
+        
         NSDate *futureDate = [NSDate dateWithTimeIntervalSinceNow:step];
         [[NSRunLoop currentRunLoop] runUntilDate:futureDate];
     }
