@@ -7,4 +7,5 @@
 
 - (void)start;
 - (int)valueCallCountAfterChange;
+- (void)end;
 @end

@@ -29,6 +29,6 @@
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-    self.lastResponse = [[[NSString alloc] initWithData:self.responseData encoding:NSUTF8StringEncoding] autorelease];
+    self.lastResponse = [[[NSString alloc] initWithData:self.responseData encoding:NSASCIIStringEncoding] autorelease];
 }
 @end
