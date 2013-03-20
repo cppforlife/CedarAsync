@@ -12,7 +12,7 @@ describe(@"Timeout", ^{
     __block AsyncAction *action;
 
     beforeEach(^{
-        action = [[[AsyncAction alloc] init] autorelease];
+        action = [[[NSTimerAsyncAction alloc] init] autorelease];
     });
 
     it(@"uses default timeout", ^{

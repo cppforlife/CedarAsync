@@ -9,3 +9,9 @@
 - (int)valueCallCountAfterChange;
 - (void)end;
 @end
+
+@interface NSTimerAsyncAction : AsyncAction
+@end
+
+@interface GCDAsyncAction : AsyncAction
+@end

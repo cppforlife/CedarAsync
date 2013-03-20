@@ -30,7 +30,6 @@
 		96D6ECEB16333A1E00F26774 /* TimeoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96D6ECEA16333A1E00F26774 /* TimeoutSpec.mm */; };
 		96D6ECEF1633415E00F26774 /* Timing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96D6ECEE1633415E00F26774 /* Timing.mm */; };
 		96D6ECF01633415E00F26774 /* Timing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96D6ECEE1633415E00F26774 /* Timing.mm */; };
-		E498D26B16F771D100D22636 /* GCDAsyncAction.mm in Sources */ = {isa = PBXBuildFile; fileRef = E498D26A16F771D100D22636 /* GCDAsyncAction.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,8 +95,6 @@
 		96D6ECEA16333A1E00F26774 /* TimeoutSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TimeoutSpec.mm; sourceTree = "<group>"; };
 		96D6ECEE1633415E00F26774 /* Timing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Timing.mm; sourceTree = "<group>"; };
 		96FF918F163642EB0003A779 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		E498D26916F771D000D22636 /* GCDAsyncAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncAction.h; sourceTree = "<group>"; };
-		E498D26A16F771D100D22636 /* GCDAsyncAction.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GCDAsyncAction.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,8 +237,6 @@
 				96D6ECBA1633251500F26774 /* ExpectCallLength.mm */,
 				96D6ECBB1633251500F26774 /* ExpectFailureWithMessage.h */,
 				96D6ECBC1633251500F26774 /* ExpectFailureWithMessage.m */,
-				E498D26916F771D000D22636 /* GCDAsyncAction.h */,
-				E498D26A16F771D100D22636 /* GCDAsyncAction.mm */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -383,7 +378,6 @@
 				96D6ECE91633347C00F26774 /* HTTPClient.m in Sources */,
 				96D6ECEB16333A1E00F26774 /* TimeoutSpec.mm in Sources */,
 				96855A12163410EF0031533F /* PollingSpec.mm in Sources */,
-				E498D26B16F771D100D22636 /* GCDAsyncAction.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

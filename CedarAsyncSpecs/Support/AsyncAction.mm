@@ -31,7 +31,6 @@
 
 - (void)start {
     self.value = self.from;
-    [self performSelector:@selector(end) withObject:nil afterDelay:self.delay];
 }
 
 - (void)end {
@@ -49,5 +48,26 @@
         return self.valueCallCount - self.valueCallCountAtChange;
     }
     return 0;
+}
+@end
+
+
+@implementation NSTimerAsyncAction
+- (void)start {
+    [super start];
+    [self performSelector:@selector(end) withObject:nil afterDelay:self.delay];
+}
+@end
+
+
+@implementation GCDAsyncAction
+- (void)start {
+    [super start];
+
+    dispatch_time_t when =
+        dispatch_time(DISPATCH_TIME_NOW, (int64_t)(self.delay * NSEC_PER_SEC));
+    dispatch_after(when, dispatch_get_main_queue(), ^(void){
+        [self end];
+    });
 }
 @end

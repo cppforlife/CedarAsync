@@ -9,10 +9,10 @@ using namespace Cedar::Matchers;
 describe(@"Polling", ^{
     NSTimeInterval diff = CedarAsync::Timing::default_poll / 2;
 
-    __block AsyncAction *action;
+    __block NSTimerAsyncAction *action;
 
     beforeEach(^{
-        action = [[[AsyncAction alloc] init] autorelease];
+        action = [[[NSTimerAsyncAction alloc] init] autorelease];
     });
 
     it(@"uses default poll", ^{
