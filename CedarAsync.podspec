@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CedarAsync"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Asynchronous testing for Cedar (and others)."
   s.description  = "CedarAsync lets you use Cedar matchers to test asynchronous code."
   s.homepage     = "https://github.com/cppforlife/CedarAsync"
