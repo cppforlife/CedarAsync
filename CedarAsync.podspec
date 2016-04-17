@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name = "CedarAsync"
   s.version = "0.0.1"
   s.summary = "asynchronous testing for Cedar (and others)."
-  s.description = "CedarAsync lets you use [Cedar](http://github.com/pivotal/cedar) matchers to \ntest asynchronous code. This becomes useful when writing intergration tests \nrather than plain unit tests. (CedarAsync only supports Cedar's should syntax.)",
+  s.description = "CedarAsync lets you use [Cedar](http://github.com/pivotal/cedar) matchers to \ntest asynchronous code. This becomes useful when writing intergration tests \nrather than plain unit tests. (CedarAsync only supports Cedar's should syntax.)"
   s.homepage = "https://github.com/cppforlife/CedarAsync"
   s.license = { :type => "MIT", :text => "LICENSE" }
   s.author = { "Dmitriy Kalinin" => "email@address.com" }
