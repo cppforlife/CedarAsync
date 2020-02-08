@@ -1,3 +1,8 @@
+# CedarAsync
+
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/CedarAsync.svg?style=flat-square)](https://cocoapods.org/pods/CedarAsync)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 CedarAsync lets you use [Cedar](http://github.com/pivotal/cedar) matchers to 
 test asynchronous code. This becomes useful when writing intergration tests 
 rather than plain unit tests. (CedarAsync only supports Cedar's should syntax.)
